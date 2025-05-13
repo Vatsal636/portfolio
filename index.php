@@ -296,12 +296,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Form submission notification -->
-    <div id="form-notification" class="form-notification">
-        <p>Your message has been submitted successfully!</p>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
