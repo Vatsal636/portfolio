@@ -118,14 +118,6 @@
                                 <span class="tech-badge">JavaScript</span>
                                 <span class="tech-badge">HTML-CSS</span>
                             </div>
-                            <!-- <div class="project-links">
-                                <a href="https://github.com" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i> Code
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Live Demo
-                                </a>
-                            </div> -->
                         </div>
                     </div>
 
@@ -142,14 +134,6 @@
                                 <span class="tech-badge">Flask</span>
                                 <span class="tech-badge">SQLite</span>
                             </div>
-                            <!-- <div class="project-links">
-                                <a href="https://github.com" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i> Code
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Live Demo
-                                </a>
-                            </div> -->
                         </div>
                     </div>
 
@@ -166,14 +150,6 @@
                                 <span class="tech-badge">CSS</span>
                                 <span class="tech-badge">JavaScript</span>
                             </div>
-                            <!-- <div class="project-links">
-                                <a href="https://github.com" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i> Code
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Live Demo
-                                </a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -269,15 +245,7 @@
                             <a href="mailto:vatsalgokani2@gmail.com" target="_blank" aria-label="Email">
                                 <i class="fa-solid fa-envelope"></i>
                             </a>
-                        </div>
-                        
-                        <!-- Admin Section for Viewing Submissions
-                        <button id="admin-toggle" class="admin-toggle">
-                            <i class="fas fa-eye"></i> View Submissions
-                        </button> -->
-                        <div id="submissions-container" class="submissions-container">
-                            <!-- Submissions will be dynamically added here -->
-                        </div>
+                        </div>    
                     </div>
                     <div class="contact-form animate slide-left">
                         <form id="contactForm" action="submit.php" method="POST">
@@ -305,7 +273,7 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 <span class="highlight">Vatsal Gokani</span>. All Rights Reserved.</p>
-            <!-- <p>Designed and built with ❤️ by Vatsal Gokani</p> -->
+            <p>Designed and built with ❤️ by Vatsal Gokani</p>
             
             <div class="footer-links">
                 <a href="#home" class="footer-link">Home</a>
@@ -330,9 +298,9 @@
     </footer>
 
     <!-- Form submission notification -->
-    <!-- <div id="form-notification" class="form-notification">
+    <div id="form-notification" class="form-notification">
         <p>Your message has been submitted successfully!</p>
-    </div> -->
+    </div>
 
     <script src="script.js"></script>
 </body>
