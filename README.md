@@ -4,7 +4,7 @@
 </h2>
 
 <div align="center">
-  <img alt="Demo" src="/assets/images/site" />
+  <img alt="Demo" src="/assets/images/site.png" />
 </div>
 
 <br/>
