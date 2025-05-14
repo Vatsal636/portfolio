@@ -9,11 +9,6 @@
 
 <br/>
 
-<p align="center">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built-with-love" />
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="made-with-javascript" />
-    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="open-source" />
-</p>
 
 ---
 
