@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="vatsalgokani.netlify.app" target="_blank">Vatsal Gokani</a>
+  <a href="[vatsalgokani.netlify.app](https://vatsalgokani.netlify.app/)" target="_blank">Vatsal Gokani</a>
 </h2>
 
 <div align="center">
