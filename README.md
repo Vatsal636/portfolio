@@ -7,11 +7,9 @@
   <img alt="Demo" src="/assets/images/site.png" />
 </div>
 
-<br/>
-
+<br>
 
 ---
-
 
 This is a clean, responsive portfolio website built using core web technologies along with PHP and MySQL for backend form handling. Fork it, customize it, and build your personal brand online.
 
