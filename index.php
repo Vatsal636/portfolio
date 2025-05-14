@@ -248,7 +248,7 @@
                         </div>    
                     </div>
                     <div class="contact-form animate slide-left">
-                        <form id="contactForm" action="submit.php" method="POST">
+                        <form id="contactForm">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" required>
