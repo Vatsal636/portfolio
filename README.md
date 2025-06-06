@@ -26,8 +26,7 @@ This is a clean, responsive portfolio website built using core web technologies 
 ## 🎯 Features
 
 - 💡 Light/Dark Theme Toggle  
-- 📱 Fully Responsive Design  
-- 💬 Contact Form  
+- 📱 Fully Responsive Design
 - 🧩 Project Cards with Tech Tags  
 - 📄 Resume Section with Timeline  
 
