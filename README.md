@@ -18,8 +18,6 @@ This is a clean, responsive portfolio website built using core web technologies 
 - HTML5
 - CSS3
 - JavaScript
-- PHP
-- MySQL
 - Font Awesome (Icons)
 - VS Code
 
