@@ -628,6 +628,25 @@ nav {
   margin-bottom: 0.8rem;
 }
 
+.tech-stack-exp {
+    margin-top: 0.6rem;
+}
+.tech-stack-exp span {
+    background-color: #e8eaf6;
+    color: #3f51b5;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    margin: 0 6px 6px 0;
+    display: inline-block;
+}
+.duration {
+    font-size: 0.90rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+
 
 
 /*=== Contact Section ===*/
