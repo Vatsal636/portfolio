@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const targetElement = document.querySelector(targetId)
 
       if (targetElement) {
-        smoothScrollTo(targetElement.offsetTop - 70, 800) // Smooth scroll with custom duration
+        smoothScrollTo(targetElement.offsetTop - 70, 100) // Smooth scroll with custom duration
       }
     })
   })
@@ -167,3 +167,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 })
+
+// Skill bar animation on hover
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.skill-bar').forEach(bar => {
+      const fill = bar.querySelector('.progress-bar-fill');
+      const percent = bar.getAttribute('data-percent');
+      fill.style.width = percent;
+    });
+  });
