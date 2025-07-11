@@ -1,5 +1,6 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +19,7 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet">
     </head>
+
     <body>
         <header>
             <div class="container">
@@ -91,51 +93,165 @@
                 </div>
             </section>
 
-            <!-- About Section -->
-            <section id="about" class="about">
+            <section id="about" class="about modern-highlight">
                 <div class="container">
                     <h2 class="section-title animate fade-in">About Me</h2>
-                    <div class="about-content">
-                        <div class="about-text animate slide-right">
-                            <p>I'm a frontend developer with a strong passion
-                                for building clean, responsive, and
-                                user-friendly websites. My journey into web
-                                development began with a curiosity to create and
-                                solve real-world problems through code, and that
-                                curiosity continues to grow every day.</p>
-                            <p>I enjoy crafting smooth user experiences and
-                                constantly exploring new tools and technologies
-                                to improve my skills. Outside of coding, I like
-                                taking on creative challenges, learning new
-                                things, and staying active in both tech and
-                                non-tech spaces.</p>
+                    <div class="highlight-wrapper">
+                        <div class="highlight-left animate slide-left">
+                            <p class="intro-text">
+                                Hi, I'm <strong>Vatsal Gokani</strong> — a
+                                frontend developer who enjoys building elegant,
+                                responsive, and interactive web experiences.
+                            </p>
+                            <p class="about-desc">
+                                With a strong focus on clean UI, I specialize in
+                                building React-based web applications that
+                                balance functionality and aesthetics. My work
+                                blends modern code practices with real-world
+                                usability.
+                            </p>
+                            <p class="about-desc">
+                                Outside of code, I stay curious — learning new
+                                tools, taking part in hackathons, and constantly
+                                upgrading my skill set to stay ahead in the tech
+                                world.
+                            </p>
+                            <a href="#skills" class="btn view-skills-btn">See My
+                                Skills</a>
                         </div>
-                        <div class="skills animate slide-left">
-                            <h3>My Skills</h3>
-                            <div class="skill-tags">
-                                <span
-                                    class="skill-tag animate zoom-in delay-1">HTML5</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-1">CSS3</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-2">JavaScript</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-2">Python</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-3">Flask</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-3">PHP</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-4">SQL</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-4">Git</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-5">UI/UX</span>
-                                <span
-                                    class="skill-tag animate zoom-in delay-5">WordPress</span>
+
+                        <div class="highlight-right animate slide-right">
+                            <ul class="bio-list">
+                                <li><strong>🎓 Education:</strong> B.Tech Computer
+                                    Science & Engineering</li>
+                                <li><strong>📍 Location:</strong> Anand, Gujarat,
+                                    India</li>
+                                <li><strong>💼 Experience:</strong> 3
+                                    internships + multiple live projects</li>
+                                <li><strong>📌 Specialties:</strong> React,
+                                    UI/UX, Full-stack fundamentals</li>
+                                <li><strong>🚀 Goal:</strong> Build innovative
+                                    web solutions that matter</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills-section animate">
+                <h2 class="section-title">🧠 My Skillset</h2>
+                <div class="skills-grid">
+
+                    <!-- Frontend Card -->
+                    <div class="skill-card glass-card animate">
+                        <div class="card-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-bar" data-percent="95%">
+                            <span>HTML5</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="90%">
+                            <span>CSS3</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="85%">
+                            <span>JavaScript</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="88%">
+                            <span>React.js</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">75%</div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Backend Card -->
+                    <div class="skill-card glass-card animate">
+                        <div class="card-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-bar" data-percent="80%">
+                            <span>Python</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="75%">
+                            <span>Flask</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="80%">
+                            <span>PHP</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="75%">
+                            <span>MySQL / SQLite</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">75%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Card -->
+                    <div class="skill-card glass-card animate">
+                        <div class="card-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skill-bar" data-percent="75%">
+                            <span>Git</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="90%">
+                            <span>VS Code</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="70%">
+                            <span>Figma</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">70%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other Card -->
+                    <div class="skill-card glass-card animate">
+                        <div class="card-header">
+                            <i class="fas fa-shapes"></i>
+                            <h3>Other</h3>
+                        </div>
+                        <div class="skill-bar" data-percent="75%">
+                            <span>UI/UX</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-percent="80%">
+                            <span>WordPress</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill">80%</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -148,8 +264,7 @@
                         <!-- Project 1 - Urban Company Clone -->
                         <div class="project-card animate slide-up">
                             <div class="project-image">
-                                <img
-                                    src="assets/images/projects/urban.png"
+                                <img src="assets/images/projects/urban.png"
                                     alt="Urban Service Provider Website">
                             </div>
                             <div class="project-content">
@@ -163,8 +278,6 @@
                                     <span class="tech-badge">React.js</span>
                                     <span class="tech-badge">JavaScript</span>
                                     <span class="tech-badge">Context API</span>
-                                    <span class="tech-badge">React Router</span>
-                                    <span class="tech-badge">Lottie</span>
                                     <span class="tech-badge">HTML/CSS</span>
                                 </div>
                                 <!-- <div class="project-links">
@@ -439,4 +552,5 @@
         </footer>
         <script src="script.js"></script>
     </body>
+
 </html>
